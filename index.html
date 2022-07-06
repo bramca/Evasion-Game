@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Creppy Bird</title>
+        <style>
+          #canvascontainer {
+          position: fixed;
+          padding: 0;
+          margin: 0;
+          top: 0;
+          left: 0;
+          }
+          body {
+          overflow: hidden;
+          }
+        </style>
+    </head>
+    <body style="margin: 0px;">
+      <div id="canvascontainer">
+        <canvas onmousemove="updateposition(event)" id="canvas1" width="800" height="700" style="background:#1D1D1D;"></canvas>
+      </div>
+      <script src="evade.js"></script>
+    </body>
+</html>
