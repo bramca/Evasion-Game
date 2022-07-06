@@ -1,6 +1,6 @@
 # Evasion Game
 ![evasion game](./img/evasion_game.PNG)
-*Created in 2017*
+*Created in 2017*<br>
 One of my very first javascript games created.<br>
 It is written in pure `javascript` and `html`.
 
